@@ -41,7 +41,7 @@ type TypeMap = {
     "foo": Foo;
 }
 ```
-
+## Usage
 ```ts 
 const messty = new Messty<TypeMap, "foo-topic">({
     provider : new KafkaProvider({
