@@ -14,7 +14,7 @@ This is the outline of the project. For now a `__typename` field is used to defi
 The core client-library of MessTy. 
 
 ### /packages/messty-dsl
-A DSL [langium-tool](https://langium.org/) to generate the typescript types from the messty schema with . Also contains a vscode extension for the DSL.
+A DSL [langium-tool](https://langium.org/) to generate the typescript types from the messty schema. Also contains a vscode extension for the DSL.
 
 ### /packages/messty-provider-kafka
 A provider to use Apache Kafka as a message broker. This adapter can be plugged into the core client-library.
