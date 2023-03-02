@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Messty",
   description: "Just playing around.",
+  base: "/messty/",
   themeConfig: {
     sidebar: [
       {
