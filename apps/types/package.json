@@ -1,0 +1,17 @@
+{
+  "name": "messty-custom-types",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mess-ty-cli generate ./src/schema.messty --destination ./dist"
+  },
+  "main": "dist/schema.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "devDependencies": {
+    "tsconfig" : "workspace:*",
+    "ts-node": "^10.9.1",
+    "zod" : "^3.20.6",
+    "messty-dsl" : "workspace:*"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "messty-provider-kafka",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "main": "src/index.ts",
+  "dependencies": {
+    "kafkajs": "^2.2.3",
+    "messty-core" : "workspace:*"
+  },
+  "devDependencies": {
+    "tsconfig" : "workspace:*",
+    "typescript": "next",
+    "ts-node": "^10.9.1"
+  }
+}

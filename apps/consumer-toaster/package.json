@@ -1,0 +1,19 @@
+{
+  "name": "consumer-toaster",
+  "version": "1.0.0",
+  "scripts": {
+    "toaster::start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "messty-core": "workspace:*",
+    "messty-provider-kafka": "workspace:*",
+    "messty-custom-types" : "workspace:*",
+    "zod" : "^3.20.6"
+  },
+  "devDependencies": {
+    "tsconfig" : "workspace:*",
+    "@types/node": "^18.13.0",
+    "typescript": "next",
+    "ts-node": "^10.9.1"
+  }
+}

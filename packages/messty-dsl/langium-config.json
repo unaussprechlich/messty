@@ -1,0 +1,12 @@
+{
+    "projectName": "MessTy",
+    "languages": [{
+        "id": "mess-ty",
+        "grammar": "src/language-server/mess-ty.langium",
+        "fileExtensions": [".messty"],
+        "textMate": {
+            "out": "syntaxes/mess-ty.tmLanguage.json"
+        }
+    }],
+    "out": "src/language-server/generated"
+}

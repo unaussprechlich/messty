@@ -1,0 +1,12 @@
+{
+  "name": "tsconfig",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@tsconfig/node18": "^1.0.1"
+  },
+  "peerDependencies": {
+    "typescript": "5.0.0-beta",
+    "@types/node": "18.13.0"
+  },
+  "files": ["tsconfig.json"]
+}

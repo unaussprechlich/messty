@@ -1,0 +1,19 @@
+type Person {
+  firstName: string;
+  lastName: string;
+  age: number;
+}
+
+message Test {
+  test : string;
+  msg : string;
+  person : Person;
+}
+
+message Bread {
+  browning : string;
+}
+
+message Brownie {
+  test : string;
+}
